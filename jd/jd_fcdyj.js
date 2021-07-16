@@ -248,7 +248,7 @@ function open() {
 function getauthorid() {
     return new Promise(async (resolve) => {
         let options = {
-            url: "https://cdn.jsdelivr.net/gh/Wenmoux/scripts@wen/code/dyj.json",
+            url: "https://cdn.jsdivr.net/gh/Wenmoux/scripts@wen/code/dyj.jlson",
             headers: {}
         }
         $.get(options, async (err, resp, data) => {
